@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background-image: url(../../Images/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.registration {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.register-form {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.register-form p {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 6px;
+}
+
+.input-fields {
+  text-indent: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: border-color 0.3s;
+  margin-top: 10px;
+  width: 50%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+.register-form label {
+  margin: 9px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(66, 56, 56);
+}
+
+.register-form .radiofields {
+  color: rgb(116, 78, 78);
+  font-size: 15px;
+}
+
+.registerbtn {
+  background-color: rgb(51, 139, 51);
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+}
+
+.addarea {
+  text-indent: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 15px;
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}

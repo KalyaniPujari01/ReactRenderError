@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background-image: url(../../Images/hhome.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.main-container {
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.main-container h1 {
+  font-size: 40px;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.main-container p {
+  font-size: 20px;
+  color: white;
+}
+
+.main-container section button {
+  border: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+
+.main-container section button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+} */
+
+/* a:hover {
+  display: inline-block;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transition: border-bottom 0.1s ease;
+  color: white;
+} */
